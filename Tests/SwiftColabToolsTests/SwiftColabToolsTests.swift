@@ -6,7 +6,7 @@ final class SwiftColabToolsTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SwiftColabTools().text, "Hello, World!")
+        XCTAssertEqual(Tools().text, "Hello, World!")
     }
 
     static var allTests = [
