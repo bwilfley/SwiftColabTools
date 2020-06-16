@@ -24,6 +24,9 @@ let package = Package(
         .target(
             name: "SwiftColabTools",
             dependencies: []),
+        .target(
+            name: "Tools",
+            dependencies: []),
         .testTarget(
             name: "SwiftColabToolsTests",
             dependencies: ["SwiftColabTools"]),
