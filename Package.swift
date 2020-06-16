@@ -10,9 +10,6 @@ let package = Package(
         .library(
             name: "SwiftColabTools",
             targets: ["SwiftColabTools"]),
-        .library(
-            name: "Tools",
-            targets: ["Tools"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -23,9 +20,6 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "SwiftColabTools",
-            dependencies: []),
-        .target(
-            name: "Tools",
             dependencies: []),
         .testTarget(
             name: "SwiftColabToolsTests",
