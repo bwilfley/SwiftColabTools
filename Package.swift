@@ -10,6 +10,9 @@ let package = Package(
         .library(
             name: "SwiftColabTools",
             targets: ["SwiftColabTools"]),
+        .library(
+            name: "Tools",
+            targets: ["Tools"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
