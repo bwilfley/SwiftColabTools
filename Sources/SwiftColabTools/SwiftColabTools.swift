@@ -1,3 +1,5 @@
+import Foundation
+
 struct SwiftColabTools {
     var text = "Hello, World!"
 }
